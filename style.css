@@ -5,19 +5,64 @@ body{
 
 }
 
-#user2{
-	position: absolute;
-	top: 150px;
-	right:120px;
-	text-transform: uppercase;
-	color: 
+input[placeholder]{
+	padding: 5px;
 }
-#user{
+
+img{
+	padding: 12px;
+	height: 40px;
 	position: absolute;
-	top: 200px;
-	right:100px;
+	top: 30px;
+	right:135px;
+	background-color: #CEB9FF;
+	border-radius: 30px;
+}
+
+#sign{
+	position: absolute;
+	top: 50px;
+	text-transform: uppercase;
+	
+}
+
+#password{
+	position: absolute;
+	top: 155px;
+	right:80px;
 	border: 2px solid #727272;
 	border-radius: 20px;
+}
+
+#user{
+	position: absolute;
+	top: 120px;
+	right:80px;
+	border: 2px solid #727272;
+	border-radius: 20px;
+}
+
+#div3{
+	margin: 0;
+	padding: 20px;
+	height: 200px;
+	width: 300px;
+	top: 200px;
+	right: 32px;
+	position: absolute;
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+
+#button{
+	height: 25px;
+	width: 55px;
+	position: absolute;
+	top: 200px;
+	right: 140px;
+	border-radius: 20px;
+	background-color: #262626;
+
 }
 
 #div2{
