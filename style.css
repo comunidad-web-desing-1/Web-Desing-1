@@ -1,8 +1,28 @@
-body{	
-	background-image:url(cofee.jpg);
+body {	
 	margin: 0;
 	padding: 0;
+}
 
+#divback{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+    height: 625px;
+    width: 70.3%;
+	background-image: url(cofee.jpg);
+	background-repeat: no-repeat;
+	filter: blur(4px);
+}
+
+#register{
+	padding: 0;
+	text-transform: uppercase;
+	color: #4D4D4D;
+	text-align: center;
+	border: 2px #262626;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 10px;
 }
 
 input[placeholder]{
@@ -10,10 +30,11 @@ input[placeholder]{
 }
 
 img{
+
 	padding: 12px;
 	height: 40px;
 	position: absolute;
-	top: 30px;
+	top: 10px;
 	right:135px;
 	background-color: #CEB9FF;
 	border-radius: 30px;
@@ -21,8 +42,13 @@ img{
 
 #sign{
 	position: absolute;
-	top: 50px;
+	top: 70px;
+	left: 135px;
 	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: 30px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px;
 	
 }
 
@@ -52,6 +78,7 @@ img{
 	position: absolute;
 	background: #FFFFFF;
 	border-radius: 30px;
+	box-shadow: 2px 2px 10px;
 }
 
 #button{
@@ -71,7 +98,8 @@ img{
 	height: 585px;
 	width: 366px;
 	float: right;
-	background: #FF6161;
+	background: #FFFD36;
+	box-shadow: 0px -200px 100px;
 }
 
 #div1{
@@ -187,9 +215,11 @@ h1{
 	margin: 0;
 	padding: 0;
 	color: white;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 }
+
+
 #div1{
 	border-radius: 8px;
 	background: #262626;
